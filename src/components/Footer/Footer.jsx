@@ -17,12 +17,17 @@ import { AppContext } from "../../contexts/AppContext"
 //COMPONENT
 import Button from "../Button/Button"
 
+//UTILS
+import { ScrollTop } from "../../utils/ScrollTop"
+
 
 function Footer() {
 
     const appContext = useContext(AppContext)
+    const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
     const changeLanguage = (country) => {
         appContext.setLanguage(country)
+        scrollTop()
     }
 
     return (
