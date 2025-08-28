@@ -59,7 +59,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div className="footer-col">
-                            <h3>{appContext.languages[appContext.language].general.contact}</h3>
+                            <h3>{appContext.languages[appContext.language].general.home}</h3>
                             <p className="grey-1-color">R. Justino Cobra, 61 – Vila Ema | São José dos Campos – SP | CEP 12243-030 </p>
                             <p className="grey-1-color">suporte@escoladnc.com.br </p>
                             <p className="grey-1-color">(19) 99187-4342 </p>
